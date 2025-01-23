@@ -44,12 +44,12 @@ This bot automates the process of creating accounts and using referral codes for
 5. Set up Gmail API credentials:
 
    - Go to the [Google Cloud Console](https://console.developers.google.com/).
-   - Create a new project.
-   - Enable the Gmail API for the project.
-   - Create OAuth 2.0 credentials for a native application.
-   - Download the `client_secret.json` open it and copy paste to `src/json/client_secret.json`.
-   - Don't forget to change the email referral verification in `client_secret.json`.
-   - Change gemini apikey in `client_secret.json`.
+- Create a new project.
+- Enable the Gmail API for the project.
+- Create OAuth 2.0 credentials for a native application.
+- Download the `client_secret.json` open it and copy paste to `src/json/client_secret.json`.
+- Don't forget to change the email referral verification in `client_secret.json`.
+- Change gemini apikey in `client_secret.json`.
 
 6. If you want using 2 Captcha service you can fill your apikey in `client_secret.json` and change `"captha2Apikey": "your_2captcha_apikey",` with your apikey.
 
