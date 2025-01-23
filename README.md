@@ -2,7 +2,7 @@
 
 This bot automates the process of creating accounts and using referral codes for the AriChain Wallet.
 
-Enter Referral code: `678d128005bcf`
+**Enter Referral code:** `678d128005bcf`
 
 ![banner](assets/img-1.jpg)
 
