@@ -36,10 +36,7 @@ This bot automates the process of creating accounts and using referral codes for
    nano proxy.txt
    ```
 
-4. Configure `client_secret.json`
-   ```sh
-   nano app/src/json/client_secret.json
-   ```
+4. Change `client_secret.json.example` to `client_secret.json`.
 
 5. Set up Gmail API credentials:
 
