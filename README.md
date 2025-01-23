@@ -44,7 +44,7 @@ This bot automates the process of creating accounts and using referral codes for
 - Create a new project.
 - Enable the Gmail API for the project.
 - Create OAuth 2.0 credentials for a native application.
-- Download the `client_secret.json` open it and copy paste to `src/json/client_secret.json`.
+- Download the `client_secret.json` open it and copy paste to `app/src/json/client_secret.json`.
 - Don't forget to change the email referral verification in `client_secret.json`.
 - Change gemini apikey in `client_secret.json`.
 
