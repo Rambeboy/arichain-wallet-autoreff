@@ -50,7 +50,7 @@ This bot automates the process of creating accounts and using referral codes for
 
 6. If you want using 2 Captcha service you can fill your apikey in `client_secret.json` and change `"captha2Apikey": "your_2captcha_apikey",` with your apikey.
 
-Get gemini apikey : [Here](https://aistudio.google.com/app/apikey)
+Get Gemini ApiKey : [Here](https://aistudio.google.com/app/apikey)
 
 ## USAGE
 
@@ -70,7 +70,7 @@ Get gemini apikey : [Here](https://aistudio.google.com/app/apikey)
 
 ## NOTES
 
-- If you get error `invalid creds` you can delete token in `src/json/token.json`
+- If you get error `invalid creds` you can delete token in `app/src/json/token.json`
 - Make sure to use valid proxies to avoid IP bans.
 - The bot will attempt to verify the email up to 5 times before giving up.
 
