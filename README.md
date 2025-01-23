@@ -2,7 +2,7 @@
 
 This bot automates the process of creating accounts and using referral codes for the AriChain Wallet.
 
-[banner](assets/img-1.jpg)
+![banner](assets/img-1.jpg)
 
 ## BOT FEATURE
 
