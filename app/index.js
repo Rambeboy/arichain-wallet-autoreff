@@ -77,8 +77,8 @@ async function main() {
 ░█▀█░█▀▄░▀█▀░█▀▀░█░█░█▀█░▀█▀░█▀█
 ░█▀█░█▀▄░░█░░█░░░█▀█░█▀█░░█░░█░█
 ░▀░▀░▀░▀░▀▀▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀
-        Author : Nofan Rambe
-        Welcome & Enjoy Sir!
+      Author : Nofan Rambe
+      Welcome & Enjoy Sir!
   `)
   );
 
