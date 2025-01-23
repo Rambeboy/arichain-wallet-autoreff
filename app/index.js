@@ -1,8 +1,8 @@
-const { prompt, logMessage, rl } = require("./utils/logger");
-const ariChain = require("./classes/ariChain");
-const { generateRandomPassword } = require("./utils/generator");
-const { authorize } = require("./classes/authGmail");
-const { getRandomProxy, loadProxies } = require("./classes/proxy");
+const { prompt, logMessage, rl } = require("./src/utils/logger");
+const ariChain = require("./src/classes/ariChain");
+const { generateRandomPassword } = require("./src/utils/generator");
+const { authorize } = require("./src/classes/authGmail");
+const { getRandomProxy, loadProxies } = require("./src/classes/proxy");
 
 const chalk = require("chalk");
 const fs = require("fs");
