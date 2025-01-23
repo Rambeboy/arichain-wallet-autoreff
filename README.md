@@ -27,10 +27,10 @@ Enter Referral code: `678d128005bcf`
    git clone https://github.com/Rambeboy/arichain-wallet-autoreff.git && cd arichain-wallet-autoreff
    ```
 
-2. Install the dependencies:
+2. Install dependencies and setup accounts
 
    ```sh
-   npm install
+   npm install && npm run setup
    ```
 
 3. Create a `proxy.txt` file in the root directory and add your proxies (one per line)
@@ -38,19 +38,22 @@ Enter Referral code: `678d128005bcf`
    nano proxy.txt
    ```
 
-4. Change `client_secret.json.example` to `client_secret.json`.
+4. Configure the bot config`
+   ```sh
+   nano config/config.js
+   ```
 
-5. Set up Gmail API credentials:
+6. Set up Gmail API credentials:
 
 - Go to the [Google Cloud Console](https://console.developers.google.com/).
 - Create a new project.
 - Enable the Gmail API for the project.
 - Create OAuth 2.0 credentials for a native application.
-- Download the `client_secret.json` open it and copy paste to `app/src/json/client_secret.json`.
-- Don't forget to change the email referral verification in `client_secret.json`.
-- Change gemini apikey in `client_secret.json`.
+- Download the `client_secret.json` open it and copy paste to `config/config.js`.
+- Don't forget to change the email referral verification in `config.js`.
+- Change gemini apikey in `config.js`.
 
-6. If you want using 2 Captcha service you can fill your apikey in `client_secret.json` and change `"captha2Apikey": "your_2captcha_apikey",` with your apikey.
+6. If you want using 2 Captcha service you can fill your apikey in `config.js` and change `"captha2Apikey": "your_2captcha_apikey",` with your apikey.
 
 Get Gemini ApiKey : [Here](https://aistudio.google.com/app/apikey)
 
@@ -72,7 +75,7 @@ Get Gemini ApiKey : [Here](https://aistudio.google.com/app/apikey)
 
 ## NOTES
 
-- If you get error `invalid creds` you can delete token in `app/src/json/token.json`
+- If you get error `invalid creds` you can delete token in `config/token.js`
 - Make sure to use valid proxies to avoid IP bans.
 - The bot will attempt to verify the email up to 5 times before giving up.
 
