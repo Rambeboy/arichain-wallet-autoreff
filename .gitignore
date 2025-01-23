@@ -1,0 +1,7 @@
+package-lock.json
+accounts.txt
+accountsBot.txt
+node_modules/
+src/json/token.json
+src/json/client_secret.json
+proxy.txt
