@@ -9,8 +9,8 @@ const fs = require("fs");
 const path = require("path");
 
 async function checkAuth() {
-  const clientSecretPath = path.resolve(__dirname, "json/client_secret.json");
-  const tokenPath = path.resolve(__dirname, "json/token.json");
+  const clientSecretPath = path.resolve(__dirname, "src/json/client_secret.json");
+  const tokenPath = path.resolve(__dirname, "src/json/token.json");
 
   if (!fs.existsSync(clientSecretPath)) {
     console.error(
