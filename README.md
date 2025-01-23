@@ -43,7 +43,7 @@ This bot automates the process of creating accounts and using referral codes for
 
 5. Set up Gmail API credentials:
 
-   - Go to the [Google Cloud Console](https://console.developers.google.com/).
+- Go to the [Google Cloud Console](https://console.developers.google.com/).
 - Create a new project.
 - Enable the Gmail API for the project.
 - Create OAuth 2.0 credentials for a native application.
