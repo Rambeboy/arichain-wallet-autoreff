@@ -2,7 +2,8 @@ package-lock.json
 accounts.txt
 accountsBot.txt
 node_modules/
-src/json/token.json
-src/json/client_secret.json
+config/token.js
+config/client_secret.js
 proxy.txt
 config.js
+accountsbot.txt
